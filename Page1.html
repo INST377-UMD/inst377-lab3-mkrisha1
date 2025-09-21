@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>INST377 - Lab 3</title>
+        <link rel = "stylesheet" href="Page1.css">
+    </head>
+
+    <body>
+        <!-- Header section -->
+        <header id="bar">
+            <h1> Lab 3 - Rock, Paper, Scissors</h1>
+        </header>
+
+        <!-- Navigation section -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://www.hollisterco.com/shop/us">Hollister</a></li>
+                <li><a href="https://www.aritzia.com/us/en">Aritzia</a></li>
+                <li><a href="https://www.abercrombie.com/shop/us">Abercrombie</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content area -->
+        <div class="main-container">
+            <div class="content-area">
+                <div class="content-box">
+                    <h1>Please choose one of the following.</h1>
+                    <form>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" required>
+                        <br>
+                        <label for="choice">Your choice: </label>
+                        <select id="choice" name="choice">
+                            <option hidden disabled selected>-- Select Option --</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Paper">Paper</option>
+                            <option value="Scissors">Scissors</option>
+                        </select>
+                        <br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+
+            <aside id="sidebar">
+                <h1><u>Rules of the Game</u></h1>
+                <h3>You must choose Rock, Paper, or Scissors.</h3>
+                <h3>Here's who beats who:</h3>
+                <h4><ul>
+                    <li>Rock beats scissors</li>
+                    <li>Paper beats rock</li>
+                    <li>Scissors beats paper</li>
+                </h4></ul>
+                
+            </aside>
+        </div>
+           
+            <!-- Footer -->
+            <footer id="bar">
+                <p>This is a footer.</p>
+            </footer>
+    </body>
+</html>
